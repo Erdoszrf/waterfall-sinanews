@@ -1,5 +1,5 @@
 ## waterfall-sinanews
-(预览地址)[https://erdoszrf.github.io/waterfall-sinanews/]
+[预览地址](https://erdoszrf.github.io/waterfall-sinanews/)
 ## 懒加载原理
 - 所有img开始都指向一个图片文件，利用自定义属性指向真正的图片地址，然后判断图片位置是否在可视区域内，如果在，把自定义属性里的真正地址替换到src属性里，使图片加载
 ## 瀑布流原理
