@@ -30,7 +30,7 @@ var curPage = 1,
     perPageCount = 9;
 function loadAndPlace(){
   $.ajax({                     //加载资源3.1
-    url: 'http://platform.sina.com.cn/slide/album_tech',
+    url: 'https://platform.sina.com.cn/slide/album_tech',
     dataType: 'jsonp',   //这里使用了新浪新闻的 jsonp 接口，大家可以直接看数据， 如： http://platform.sina.com.cn/slide/album_tech?jsoncallback=func&app_key=1271687855&num=3&page=4
     jsonp:"jsoncallback",
     data: {
